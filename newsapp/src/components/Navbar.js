@@ -7,7 +7,7 @@ export class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">
                             NewsMonkey
@@ -34,6 +34,24 @@ export class Navbar extends Component {
                                     <a className="nav-link" href="/about">
                                         About
                                     </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Business</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Entertainment</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Health</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Science</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Sports</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/about">Technology</a>
                                 </li>
                             </ul>
                             <form className="d-flex" role="search">
