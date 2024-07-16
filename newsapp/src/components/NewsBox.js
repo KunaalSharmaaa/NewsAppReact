@@ -78,6 +78,9 @@ export class NewsBox extends Component {
                                     description={element.description ? element.description : ""}
                                     imageUrl={element.urlToImage}
                                     newsUrl={element.url}
+                                    pubDate={element.publishedAt}
+                                    author={element.author}
+                                    source={element.source.name}
                                 />
                             </div>
                         );
